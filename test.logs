@@ -1,0 +1,62 @@
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+ response 
+ {"code":"4001","message":"Activation Failed!"}
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
