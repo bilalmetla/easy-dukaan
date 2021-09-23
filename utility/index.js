@@ -84,8 +84,8 @@ exports.mapToClientResponse = function (result) {
         if ( result._id) {
             result.id = result._id
             delete result._id
-            delete item.password;
-            delete item.pin;
+            delete result.password;
+            delete result.pin;
         }
         
      }

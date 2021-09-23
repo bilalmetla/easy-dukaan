@@ -1,9 +1,10 @@
 
 const userController = require('../controllers/user');
+const activationController = require('../controllers/activation');
 
 
 module.exports = (Router) => {
-    Router.post('/users/login',  userController.login)
-    Router.post('/users/activation',  userController.activation)
-    Router.post('/users/activation/verify',  userController.activationVerify)
+    Router.post('/users',  userController.userCreate)
+    Router.post('/users/activation',  activationController.activationCreate)
+    Router.post('/users/activation/verify',  activationController.activationVerify)
 }

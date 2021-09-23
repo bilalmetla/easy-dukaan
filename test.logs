@@ -60,3 +60,1108 @@ response
 
  response 
  {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"5000","message":"Cannot read property 'findOne' of undefined"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"5000","message":"Cannot read property 'findOne' of undefined"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+ response 
+ {"code":"5000","message":"Cannot read property 'findOne' of undefined"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"5000","message":"Cannot read property 'findOne' of undefined"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+ response 
+ {"code":"5000","message":"db.delete is not a function"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"5000","message":"Cannot read property 'findOne' of undefined"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+ response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}response 
+ {"code":"4001","message":"Activation Failed!"}
+ response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+ response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":545883}} 
+
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":881661}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":881661}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":699921}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":699921}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":707642}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":707642}} 
+
+ response 
+ {"code":"5000","message":"mobileNumber is not defined"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":430363}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":430363}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":674925}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":674925}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":114712}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":114712}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"5000","message":"\"code\" is required"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":599294}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":415531}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780"}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+ response 
+ {"code":"5000","message":"\"code\" is required"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":294627}response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":707037}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":707037}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":412889}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":412889}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":999678}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":999678}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":385022}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780"}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+ response 
+ {"code":"5000","message":"\"code\" is required"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":647242}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780"}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+ response 
+ {"code":"5000","message":"\"code\" is required"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":155623}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":155623}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"5000","message":"\"name\" is required"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":692694}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":692694}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"5000","message":"\"businessType\" must be a string"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":399890}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":399890}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"5000","message":"\"representitveName\" is required"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":484301}response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":484301}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"5000","message":"item is not defined"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":898784}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780"}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+ response 
+ {"code":"5000","message":"\"code\" is required"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","phone":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T12:03:04.164Z","id":"NEOa6ekBl5nVe6RM"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":876645}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":876645}} 
+
+ response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T12:05:08.827Z","id":"I1gS2T5zIePFvNFR"}
+
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","smsCode":440724}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":440724}} 
+
+ response 
+ {"code":"2002","message":"User Already Exists!","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T12:05:08.827Z","_id":"I1gS2T5zIePFvNFR"}
+
+---------------------
+
+/api/users
+ {"payload":{"businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+ response 
+ {"code":"2001","message":"Record Created Success!","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T12:05:29.515Z","id":"lOujAhG5lZofiNoT"}
+
+---------------------
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","smsCode":759123}
+
+---------------------
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+response 
+ {"code":"4001","message":"Activation Failed!"}
+
+---------------------
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":759123}} 
+
+response 
+ {"code":"2002","message":"User Already Exists!","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T12:05:08.827Z","_id":"I1gS2T5zIePFvNFR"}
+
+---------------------
+/api/users
+ {"payload":{"name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T12:14:50.360Z","id":"kwVN0T9pZnzG3sXt"}
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","smsCode":980080}
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+response 
+ {"code":"4001","message":"Activation Failed!"}
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":980080}} 
+
+response 
+ {"code":"2002","message":"User Already Exists!","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T12:05:08.827Z","_id":"I1gS2T5zIePFvNFR"}
+---------------------
+
+/api/users
+ {"payload":{"name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T12:15:46.724Z","id":"94nFJ1Lwe4cbzQdc"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"businessType":"General Store & Kiryana","isActive":1,"id":"HX6iPlKRZSP3nIbY"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"businessType":"Medical Store & Baby Care","isActive":1,"id":"l80fzrJMZbmEnnTi"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"TR6dLgpTpv9ORr9b"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"businessType":"Fruite & Sabzi","isActive":1,"id":"tjFYBVH57RfyP16M"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"General Store & Kiryana","isActive":1,"id":"mdqzvgPosXpATPBR"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Medical Store & Baby Care","isActive":1,"id":"jbKxUZuMSfPCTvEV"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"24DH9JbJXbxXpK3o"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Fruite & Sabzi","isActive":1,"id":"DvXaHeNvTejB6ahy"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"General Store & Kiryana","isActive":1,"id":"WMHNRDHPLYqzftYp"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Medical Store & Baby Care","isActive":1,"id":"H8JoZ5hAyNS4NSdP"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"sqPNV6VzYQjzd5Sc"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Fruite & Sabzi","isActive":1,"id":"yA5swanEi9yTsVN0"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"General Store & Kiryana","isActive":1,"id":"7rIdmZ7gmD3NoZOl"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Medical Store & Baby Care","isActive":1,"id":"DV9rMe40SONgy4hJ"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"vkTPgohUxUW3t4lX"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Fruite & Sabzi","isActive":1,"id":"UTJMHX18OkO3qkg8"}
+---------------------
+
+/api/businesses/types
+
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"General Store & Kiryana","isActive":1,"id":"PNKmhHXwKHj47OzH"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Medical Store & Baby Care","isActive":1,"id":"3fglacGIVR3YqvJ6"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"sm3mfJR92zuv9ynB"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Fruite & Sabzi","isActive":1,"id":"G10LYJYpYymQ1wci"}
+---------------------
+
+/api/businesses/types
+
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"General Store & Kiryana","isActive":1,"id":"jwQsYTyjEqjzFgd3"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Medical Store & Baby Care","isActive":1,"id":"eypsBL51nPWrPPW9"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"lNtO7QgCHUGRNikq"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Fruite & Sabzi","isActive":1,"id":"IGQ00oUGjYpNbG99"}
+---------------------
+
+/api/businesses/types
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"24DH9JbJXbxXpK3o"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"3fglacGIVR3YqvJ6"},{"businessType":"General Store & Kiryana","isActive":1,"id":"7rIdmZ7gmD3NoZOl"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"DV9rMe40SONgy4hJ"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"DvXaHeNvTejB6ahy"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"G10LYJYpYymQ1wci"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"H8JoZ5hAyNS4NSdP"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"IGQ00oUGjYpNbG99"},{"businessType":"General Store & Kiryana","isActive":1,"id":"PNKmhHXwKHj47OzH"},{"businessType":"General Store & Kiryana","isActive":1,"id":"PmvMsxGSi0GAepry"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"UTJMHX18OkO3qkg8"},{"businessType":"General Store & Kiryana","isActive":1,"id":"WMHNRDHPLYqzftYp"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"eypsBL51nPWrPPW9"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"jbKxUZuMSfPCTvEV"},{"businessType":"General Store & Kiryana","isActive":1,"id":"jwQsYTyjEqjzFgd3"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"lNtO7QgCHUGRNikq"},{"businessType":"General Store & Kiryana","isActive":1,"id":"mdqzvgPosXpATPBR"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"sm3mfJR92zuv9ynB"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"sqPNV6VzYQjzd5Sc"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"vkTPgohUxUW3t4lX"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"yA5swanEi9yTsVN0"}]}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+
+---------------------
+
+/api/businesses/types
+
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"General Store & Kiryana","isActive":1,"id":"50E994dmAdY5HXCX"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Medical Store & Baby Care","isActive":1,"id":"CO1FdmYE0xdCpenz"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"gcJiCQPHBY4B7ZbB"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Fruite & Sabzi","isActive":1,"id":"SwTwGaQylReUdiWS"}
+---------------------
+
+/api/businesses/types
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"24DH9JbJXbxXpK3o"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"3fglacGIVR3YqvJ6"},{"businessType":"General Store & Kiryana","isActive":1,"id":"50E994dmAdY5HXCX"},{"businessType":"General Store & Kiryana","isActive":1,"id":"7rIdmZ7gmD3NoZOl"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"CO1FdmYE0xdCpenz"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"DV9rMe40SONgy4hJ"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"DvXaHeNvTejB6ahy"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"G10LYJYpYymQ1wci"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"H8JoZ5hAyNS4NSdP"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"IGQ00oUGjYpNbG99"},{"businessType":"General Store & Kiryana","isActive":1,"id":"PNKmhHXwKHj47OzH"},{"businessType":"General Store & Kiryana","isActive":1,"id":"PmvMsxGSi0GAepry"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"SwTwGaQylReUdiWS"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"UTJMHX18OkO3qkg8"},{"businessType":"General Store & Kiryana","isActive":1,"id":"WMHNRDHPLYqzftYp"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"eypsBL51nPWrPPW9"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"gcJiCQPHBY4B7ZbB"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"jbKxUZuMSfPCTvEV"},{"businessType":"General Store & Kiryana","isActive":1,"id":"jwQsYTyjEqjzFgd3"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"lNtO7QgCHUGRNikq"},{"businessType":"General Store & Kiryana","isActive":1,"id":"mdqzvgPosXpATPBR"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"sm3mfJR92zuv9ynB"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"sqPNV6VzYQjzd5Sc"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"vkTPgohUxUW3t4lX"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"yA5swanEi9yTsVN0"}]}
+---------------------
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","smsCode":589942}
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+response 
+ {"code":"4001","message":"Activation Failed!"}
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":589942}} 
+
+response 
+ {"code":"2002","message":"User Already Exists!","name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T12:15:46.724Z","_id":"94nFJ1Lwe4cbzQdc"}
+---------------------
+
+/api/users
+ {"payload":{"name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-23T13:42:08.509Z","id":"5uFtkPsNjYvr3ZI1"}

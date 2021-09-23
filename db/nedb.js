@@ -3,8 +3,7 @@ const Datastore = require('nedb');
 
 
 const users = new Datastore({ filename: __basedir+'/data/users.db', autoload: true });
-const suppliers = new Datastore({ filename: __basedir+'/data/suppliers.db', autoload: true });
-const merchants = new Datastore({ filename: __basedir+'/data/merchants.db', autoload: true });
+const businesstypes = new Datastore({ filename: __basedir+'/data/businesstypes.db', autoload: true });
 const activations = new Datastore({ filename: __basedir+'/data/activations.db', autoload: true });
 const products = new Datastore({ filename: __basedir+'/data/products.db', autoload: true });
 const categories = new Datastore({ filename: __basedir+'/data/categories.db', autoload: true });
@@ -13,8 +12,7 @@ const promotions = new Datastore({ filename: __basedir+'/data/promotions.db', au
 
 const db = {
     users,
-    suppliers,
-    merchants,
+    businesstypes,
     activations,
     products,
     categories,

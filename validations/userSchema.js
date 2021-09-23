@@ -12,17 +12,23 @@ const {
 
 const user = joi.object().keys({ 
     name: stringValueRequired,
-    address: stringValueRequired,
-    representitveName: stringValueRequired,
-    phone: numberValueRequired,
-    ntnNumber: stringValueRequired,
-    ntnName: stringValueRequired,
+    businessName: stringValueRequired,
+    businessType: joi.array(),
+    addressLine: stringValueRequired,
+    mobileNumber: numberValueRequired,
     
+    location: joi.object().keys({
+      type: stringValueRequired,
+      coordinates:joi.array()
+    }).required(),
+
     email: stringValueOptional,
-    unitId: stringValueOptional,
+    imageUrl: stringValueOptional,
     createdDate: stringValueOptional,
     updatedDate: stringValueOptional,
-    cnic: stringValueOptional,
+  cnic: stringValueOptional,
+    
+  
 })
   
 exports.isUserValid = function (dataToValidate) {

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node ./index.js",
     "dev": "nodemon ./index.js",
-    "test": "mocha --watch"
+    "test:activation": "mocha --watch test/activation.js",
+    "test:businsssTypes": "mocha --watch test/businsssTypesCreate.js"
   },
   "repository": {
     "type": "git",
