@@ -21,6 +21,7 @@ require('./middlewares/req-session')(Router)
 
  require('./businessTypes')(Router)
  require('./productCatagories')(Router)
+ require('./suppliers')(Router)
 
 
 
