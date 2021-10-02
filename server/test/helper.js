@@ -14,14 +14,14 @@ const LOG_FILE = `${__basedir}/test.logs`
 
 
 exports.sendRequest =  async function (url, data) {
-    await fs.promises.appendFile(LOG_FILE, `\n---------------------\n\n${url}\n ${JSON.stringify(data)} \n\n`)
+    await fs.promises.appendFile(LOG_FILE, `\n---------------------\n\n${url} POST\n ${JSON.stringify(data)} \n\n`)
    return await chai.request(server)
          .post(url)
          .send(data)
  };
 
 exports.sendGetRequest = async function (url) {
-    await fs.promises.appendFile(LOG_FILE, `\n---------------------\n\n${url}\n`)
+    await fs.promises.appendFile(LOG_FILE, `\n---------------------\n\n${url} GET\n`)
    return await chai.request(server)
          .get(url)
  };

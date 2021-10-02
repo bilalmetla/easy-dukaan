@@ -52,7 +52,7 @@ async function getActivaton(data, db) {
     let where = {
         $and:[
             { mobileNumber: data.mobileNumber },
-            {smsCode: data.code}
+            {smsCode: parseInt(data.code)}
         ]                
     }
     const result = await db.findOne(ACTIVATIONS, where)

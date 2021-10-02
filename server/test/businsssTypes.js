@@ -11,8 +11,9 @@ var userResults = {
 }
 
 
-describe('Easy Dukaan - Create Records', function () { 
-
+describe('Easy Dukaan - Businesses Types', function () { 
+    this.timeout(20000);
+    
     it('/POST /businesses/types', async function () {
         const request = {
             payload: {

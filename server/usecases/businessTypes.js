@@ -9,8 +9,11 @@ const {
 const BUSINESS_TYPES = 'businesstypes'
 
 
-exports.getAll = async function (db) {
-    return await db.find(BUSINESS_TYPES)
+exports.getAllActive = async function (db) {
+    let where = {
+        isActive: 1
+    }
+    return await db.find(BUSINESS_TYPES, where)
 
     
 }

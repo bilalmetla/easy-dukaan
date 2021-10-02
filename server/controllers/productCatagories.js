@@ -1,6 +1,6 @@
 
 const response = require('../helpers/response')
-const BusinessTypes = require('../usecases/businessTypes')
+const ProductCatagories = require('../usecases/productCatagories')
 const db = require('../db')
 const utility = require('../utility');
 const { responseMapper } = require('../constants')
@@ -10,10 +10,10 @@ const { isdevInstance } = require('../conf');
 
 
 
-exports.getBusinessTypes = async function (req, res, next) {
+exports.getProductCatagoryByBusinessType = async function (req, res, next) {
     try {
- 
-        let record = await BusinessTypes.getAll(db)
+        let { businessTypeId } = req.params;
+        let record = await ProductCatagories.getByBusinessType({businessTypeId}, db)
         
         utility.mapToClientResponse(record)
         const result = {
@@ -28,11 +28,11 @@ exports.getBusinessTypes = async function (req, res, next) {
  };
 
 
-exports.createBusinessTypes = async function (req, res, next) {
+exports.createProductCatagory = async function (req, res, next) {
     try {
 
-        const type = req.body.payload;
-        let record = await BusinessTypes.create(type, db)
+        const catagory = req.body.payload;
+        let record = await ProductCatagories.create(catagory, db)
         utility.mapToClientResponse(record)
         
         const result = {

@@ -12,7 +12,7 @@ var userResults = {
 
 
 describe('Easy Dukaan', function() {
-  
+  this.timeout(20000);
   
   it('/POST /users/activation', async function () {
     const request = { payload: { mobileNumber: userResults.mobileNumber } }

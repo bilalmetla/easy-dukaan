@@ -6,7 +6,7 @@ const users = new Datastore({ filename: __basedir+'/data/users.db', autoload: tr
 const businesstypes = new Datastore({ filename: __basedir+'/data/businesstypes.db', autoload: true });
 const activations = new Datastore({ filename: __basedir+'/data/activations.db', autoload: true });
 const products = new Datastore({ filename: __basedir+'/data/products.db', autoload: true });
-const categories = new Datastore({ filename: __basedir+'/data/categories.db', autoload: true });
+const productcategories = new Datastore({ filename: __basedir+'/data/productcategories.db', autoload: true });
 const subscriptions = new Datastore({ filename: __basedir+'/data/subscriptions.db', autoload: true });
 const promotions = new Datastore({ filename: __basedir+'/data/promotions.db', autoload: true });
 
@@ -15,7 +15,7 @@ const db = {
     businesstypes,
     activations,
     products,
-    categories,
+    productcategories,
     subscriptions,
     promotions,
 

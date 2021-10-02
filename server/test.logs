@@ -1,0 +1,269 @@
+
+/api/users/activation
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","smsCode":745228}
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+response 
+ {"code":"4001","message":"Activation Failed!"}
+---------------------
+
+/api/users/activation/verify
+ {"payload":{"mobileNumber":"03015339780","code":745228}} 
+
+response 
+ {"code":"2001","message":"Mobile Number Is Verified!"}
+---------------------
+
+/api/users
+ {"payload":{"name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-24T01:59:22.979Z","id":"FpW9CXFkyLj2Vq56"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"General Store & Kiryana","isActive":1,"id":"a96hoOvMwrPODwWL"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Medical Store & Baby Care","isActive":1,"id":"nDfO8Z0IpgyOGD1n"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"X5zhC6YZTjgoAjT1"}
+---------------------
+
+/api/businesses/types
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Fruite & Sabzi","isActive":1,"id":"qvNgpx9rUOUZI9cS"}
+---------------------
+
+/api/businesses/types
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"X5zhC6YZTjgoAjT1"},{"businessType":"General Store & Kiryana","isActive":1,"id":"a96hoOvMwrPODwWL"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"nDfO8Z0IpgyOGD1n"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"qvNgpx9rUOUZI9cS"}]}
+---------------------
+
+/api/businesses/types
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"X5zhC6YZTjgoAjT1"},{"businessType":"General Store & Kiryana","isActive":1,"id":"a96hoOvMwrPODwWL"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"nDfO8Z0IpgyOGD1n"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"qvNgpx9rUOUZI9cS"}]}
+---------------------
+
+/api/products/catagories
+ {"payload":{"catagoryName":"Tea","businessTypeId":"1"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","catagoryName":"Tea","businessTypeId":"1","isActive":1,"id":"hHIQE1su3KnUkg0o"}
+---------------------
+
+/api/products/catagories
+ {"payload":{"catagoryName":"Oil","businessTypeId":"2"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","catagoryName":"Oil","businessTypeId":"2","isActive":1,"id":"H2KrlKA7h5ToivH9"}
+---------------------
+
+/api/users/activation POST
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","smsCode":991698}
+---------------------
+
+/api/users/activation/verify POST
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+response 
+ {"code":"4001","message":"Activation Failed!"}
+---------------------
+
+/api/users/activation/verify POST
+ {"payload":{"mobileNumber":"03015339780","code":991698}} 
+
+response 
+ {"code":"2002","message":"User Already Exists!","name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-24T01:59:22.979Z","_id":"FpW9CXFkyLj2Vq56"}
+---------------------
+
+/api/users POST
+ {"payload":{"name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-24T02:03:07.986Z","id":"WiRGadklBjVUSbpH"}
+---------------------
+
+/api/businesses/types POST
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"General Store & Kiryana","isActive":1,"id":"gkkxRBAonYtk4BNH"}
+---------------------
+
+/api/businesses/types POST
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Medical Store & Baby Care","isActive":1,"id":"hbqfEYuyU39Ewv0M"}
+---------------------
+
+/api/businesses/types POST
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"UPzLVeEfiuzQHuTw"}
+---------------------
+
+/api/businesses/types POST
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Fruite & Sabzi","isActive":1,"id":"AkE62T9O0QXP0Scj"}
+---------------------
+
+/api/businesses/types GET
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"businessType":"Fruite & Sabzi","isActive":1,"id":"AkE62T9O0QXP0Scj"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"UPzLVeEfiuzQHuTw"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"X5zhC6YZTjgoAjT1"},{"businessType":"General Store & Kiryana","isActive":1,"id":"a96hoOvMwrPODwWL"},{"businessType":"General Store & Kiryana","isActive":1,"id":"gkkxRBAonYtk4BNH"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"hbqfEYuyU39Ewv0M"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"nDfO8Z0IpgyOGD1n"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"qvNgpx9rUOUZI9cS"}]}
+---------------------
+
+/api/businesses/types GET
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"businessType":"Fruite & Sabzi","isActive":1,"id":"AkE62T9O0QXP0Scj"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"UPzLVeEfiuzQHuTw"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"X5zhC6YZTjgoAjT1"},{"businessType":"General Store & Kiryana","isActive":1,"id":"a96hoOvMwrPODwWL"},{"businessType":"General Store & Kiryana","isActive":1,"id":"gkkxRBAonYtk4BNH"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"hbqfEYuyU39Ewv0M"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"nDfO8Z0IpgyOGD1n"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"qvNgpx9rUOUZI9cS"}]}
+---------------------
+
+/api/products/catagories POST
+ {"payload":{"catagoryName":"Tea","businessTypeId":"1"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","catagoryName":"Tea","businessTypeId":"1","isActive":1,"id":"3e1K89xm3WcNfesu"}
+---------------------
+
+/api/products/catagories POST
+ {"payload":{"catagoryName":"Oil","businessTypeId":"2"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","catagoryName":"Oil","businessTypeId":"2","isActive":1,"id":"5BGOvFYs6QKhV6Dz"}
+---------------------
+
+/api/users/activation POST
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","smsCode":131513}
+---------------------
+
+/api/users/activation/verify POST
+ {"payload":{"mobileNumber":"03015339780","code":632563}} 
+
+response 
+ {"code":"4001","message":"Activation Failed!"}
+---------------------
+
+/api/users/activation/verify POST
+ {"payload":{"mobileNumber":"03015339780","code":131513}} 
+
+response 
+ {"code":"2002","message":"User Already Exists!","name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-24T01:59:22.979Z","_id":"FpW9CXFkyLj2Vq56"}
+---------------------
+
+/api/users POST
+ {"payload":{"name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]}}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","name":"Rizwan","businessName":"Rizwan Kello Store","businessType":["Karayna store","Sabzi and Fruite"],"cnic":"123365636","imageUrl":"","addressLine":"G11/2 street 72, islamabad","email":"","mobileNumber":"03015339780","location":{"type":"Point","coordinates":[73.075223,33.729861]},"createdDate":"2021-09-24T02:07:37.993Z","id":"SvA5PeaaWvkpA9jO"}
+---------------------
+
+/api/businesses/types POST
+ {"payload":{"businessType":"General Store & Kiryana"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"General Store & Kiryana","isActive":1,"id":"2Wcx2rETuRyaqdfZ"}
+---------------------
+
+/api/businesses/types POST
+ {"payload":{"businessType":"Medical Store & Baby Care"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Medical Store & Baby Care","isActive":1,"id":"JIcPQ0wQHPEUemZr"}
+---------------------
+
+/api/businesses/types POST
+ {"payload":{"businessType":"Wholesalre, Depo & Chaki"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"03ZBIOex4q1xLSey"}
+---------------------
+
+/api/businesses/types POST
+ {"payload":{"businessType":"Fruite & Sabzi"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","businessType":"Fruite & Sabzi","isActive":1,"id":"0MvuCzAFOZ7g7Vbz"}
+---------------------
+
+/api/businesses/types GET
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"03ZBIOex4q1xLSey"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"0MvuCzAFOZ7g7Vbz"},{"businessType":"General Store & Kiryana","isActive":1,"id":"2Wcx2rETuRyaqdfZ"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"AkE62T9O0QXP0Scj"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"JIcPQ0wQHPEUemZr"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"UPzLVeEfiuzQHuTw"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"X5zhC6YZTjgoAjT1"},{"businessType":"General Store & Kiryana","isActive":1,"id":"a96hoOvMwrPODwWL"},{"businessType":"General Store & Kiryana","isActive":1,"id":"gkkxRBAonYtk4BNH"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"hbqfEYuyU39Ewv0M"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"nDfO8Z0IpgyOGD1n"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"qvNgpx9rUOUZI9cS"}]}
+---------------------
+
+/api/businesses/types GET
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"03ZBIOex4q1xLSey"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"0MvuCzAFOZ7g7Vbz"},{"businessType":"General Store & Kiryana","isActive":1,"id":"2Wcx2rETuRyaqdfZ"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"AkE62T9O0QXP0Scj"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"JIcPQ0wQHPEUemZr"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"UPzLVeEfiuzQHuTw"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"X5zhC6YZTjgoAjT1"},{"businessType":"General Store & Kiryana","isActive":1,"id":"a96hoOvMwrPODwWL"},{"businessType":"General Store & Kiryana","isActive":1,"id":"gkkxRBAonYtk4BNH"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"hbqfEYuyU39Ewv0M"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"nDfO8Z0IpgyOGD1n"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"qvNgpx9rUOUZI9cS"}]}
+---------------------
+
+/api/products/catagories POST
+ {"payload":{"catagoryName":"Tea","businessTypeId":"1"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","catagoryName":"Tea","businessTypeId":"1","isActive":1,"id":"qOKCoFmC7wZouoey"}
+---------------------
+
+/api/products/catagories POST
+ {"payload":{"catagoryName":"Oil","businessTypeId":"2"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","catagoryName":"Oil","businessTypeId":"2","isActive":1,"id":"TsbqQleHF9sGlBsX"}
+---------------------
+
+/api/users/activation POST
+ {"payload":{"mobileNumber":"03015339780"}} 
+
+
+---------------------
+
+/api/businesses/types GET
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"03ZBIOex4q1xLSey"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"0MvuCzAFOZ7g7Vbz"},{"businessType":"General Store & Kiryana","isActive":1,"id":"2Wcx2rETuRyaqdfZ"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"AkE62T9O0QXP0Scj"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"JIcPQ0wQHPEUemZr"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"UPzLVeEfiuzQHuTw"},{"businessType":"Wholesalre, Depo & Chaki","isActive":1,"id":"X5zhC6YZTjgoAjT1"},{"businessType":"General Store & Kiryana","isActive":1,"id":"a96hoOvMwrPODwWL"},{"businessType":"General Store & Kiryana","isActive":1,"id":"gkkxRBAonYtk4BNH"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"hbqfEYuyU39Ewv0M"},{"businessType":"Medical Store & Baby Care","isActive":1,"id":"nDfO8Z0IpgyOGD1n"},{"businessType":"Fruite & Sabzi","isActive":1,"id":"qvNgpx9rUOUZI9cS"}]}
+---------------------
+
+/api/products/catagories POST
+ {"payload":{"catagoryName":"Tea","businessTypeId":"1"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","catagoryName":"Tea","businessTypeId":"1","isActive":1,"id":"zApZaXjRtHi2zgPb"}
+---------------------
+
+/api/products/catagories POST
+ {"payload":{"catagoryName":"Oil","businessTypeId":"2"}} 
+
+response 
+ {"code":"2001","message":"Record Created Success!","catagoryName":"Oil","businessTypeId":"2","isActive":1,"id":"CzB7kh2NoLNXpSVY"}
+---------------------
+
+/api/products/catagories/1 GET
+response 
+ {"code":"2001","message":"Record Received Success!","list":[{"catagoryName":"Tea","businessTypeId":"1","isActive":1,"id":"3e1K89xm3WcNfesu"},{"catagoryName":"Tea","businessTypeId":"1","isActive":1,"id":"hHIQE1su3KnUkg0o"},{"catagoryName":"Tea","businessTypeId":"1","isActive":1,"id":"qOKCoFmC7wZouoey"},{"catagoryName":"Tea","businessTypeId":"1","isActive":1,"id":"zApZaXjRtHi2zgPb"}]}
